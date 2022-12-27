@@ -175,18 +175,9 @@
                             <li>
                                 <i class="flaticon-email"></i>
                                 <div class="title">Mail:</div>
-                                <a href=""><span class="__cf_email__"
-                                        data-cfemail="">info@rightgoalcompany.com</span></a>
+                                <a href="mailto:info@rightgoalcompany.com">info@rightgoalcompany.com</a>
                             </li>
                         </ul>
-                        <form class="newsletter-form" data-toggle="validator" method="POST">
-                            <input type="email" class="form-control" placeholder="Email Address" name="EMAIL"
-                                required autocomplete="off">
-                            <div id="validator-newsletter" class="form-result"></div>
-                            <button type="submit" class="submit-btn">
-                                Subscribe <i class='bx bx-right-arrow-alt'></i>
-                            </button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -197,11 +188,10 @@
             <div class="copy-right-text">
                 <p>
                     Copyright @
-                    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>
                         document.write(new Date().getFullYear())
-                    </script> Nixo. All Rights Reserved by
-                    <a href="" target="_blank">KMail</a>
+                    </script>All Rights Reserved by
+                    <a href="#" target="_blank">KMail</a>
                 </p>
             </div>
         </div>

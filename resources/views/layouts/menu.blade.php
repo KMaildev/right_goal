@@ -35,9 +35,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4">
                     <div class="top-right">
-
                         <div class="language-list">
                             <select class="language-list-item">
                                 <option>English</option>
@@ -61,11 +61,11 @@
     </div>
 
     <div class="main-nav nav-two">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: #EFF0F2;">
             <div class="container-max">
                 <nav class="navbar navbar-expand-md navbar-light ">
                     <a class="navbar-brand" href="{{ route('welcome') }}">
-                        <img src="{{ asset('assets/data/logo.jpg') }}" alt="Logo" style="width:53px;height:53px;">
+                        <img src="{{ asset('data/logo.png') }}" alt="Logo" style="width: 100%; height: 70px;">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
@@ -77,19 +77,14 @@
 
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
-                                    <b> About Us </b>
+                                    <b> About </b>
                                     <i class='bx bx-chevron-down'></i>
                                 </a>
                                 <ul class="dropdown-menu">
+
                                     <li class="nav-item">
                                         <a href="{{ route('company.index') }}" class="nav-link">
                                             Our Company
-                                        </a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="{{ route('directormessage.index') }}" class="nav-link">
-                                            Directors' Message
                                         </a>
                                     </li>
 
@@ -100,19 +95,25 @@
                                     </li>
 
                                     <li class="nav-item">
+                                        <a href="{{ route('directormessage.index') }}" class="nav-link">
+                                            Directors' Message
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
                                         <a href="{{ route('visionmission.index') }}" class="nav-link">
                                             Vision, Mission & Values
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="{{ route('team.index') }}" class="nav-link">
                                             Our Teams
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="{{ route('org') }}" class="nav-link">
                                             Our Organization Chart
                                         </a>
                                     </li>
@@ -121,7 +122,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ route('recruitmentprocess.index') }}" class="nav-link">
-                                    <b>Our Recruitment Process</b>
+                                    <b>Recruitment Process</b>
                                 </a>
                             </li>
 
@@ -169,7 +170,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ route('contact.index') }}" class="nav-link">
-                                    <b>Contact Us</b>
+                                    <b>Contact</b>
                                 </a>
                             </li>
                         </ul>

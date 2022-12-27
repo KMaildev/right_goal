@@ -26,7 +26,6 @@
             </div>
             <div class="row pt-45 align-items-center">
                 <div class="col-lg-6">
-
                     <div class="faq-img">
                         <ul>
                             <li><img src="{{ asset('assets/data/v8.gif') }}" alt="Images"></li>
@@ -34,7 +33,6 @@
                                 <img src="{{ asset('assets/data/v7.gif') }}" alt="Images">
                             </li>
                         </ul>
-
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -53,12 +51,27 @@
                                 </div>
                             </li>
 
+                            <li class="accordion-item" style="background-color: #44423E;">
+                                <a class="accordion-title active" href="javascript:void(0)" style="background-color: #44423E; color: white;">
+                                    <i class='bx bx-chevron-down'></i>
+                                    Our Mission
+                                </a>
+                                <div class="accordion-content show" style="background-color: #44423E;">
+                                    <p style="color: white;">
+                                        - As our company name "Right Goal", we aim to create the worker's dream come true
+                                        and
+                                        the right goal place for workers.
+                                        <br>
+                                        - To be a trusted partner of client companies and industries.
+                                        <br>
+                                        - To be the best recruitment agency in Myanmar Landside.
+                                        <br>
+                                        - To create welfare and safe zone workplaces for workers.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-
-
-
-
-                    </ul>
                 </div>
             </div>
         </div>

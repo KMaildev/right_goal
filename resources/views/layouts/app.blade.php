@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-
+    <title>Right Goal Co.,Ltd</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
 
-
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.min.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css') }}">
@@ -26,9 +25,13 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 
-    <title>Right Goal Co.,Ltd</title>
-
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
+    <meta content="" name="Right Goal Co.,Ltd">
+    <meta name="keywords" content="Right Goal Co.,Ltd" />
+    <meta property="og:title" content="Right Goal Co.,Ltd" />
+    <meta property="og:image" content="{{ asset('assets/data/logo.jpg') }}" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Right Goal Co.,Ltd" />
+    <link rel="icon" href="{{ asset('assets/data/logo.jpg') }}" type="image/gif" sizes="20x20">
 </head>
 
 <body>

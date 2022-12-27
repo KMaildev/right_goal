@@ -8,8 +8,10 @@
                             <span>Overseas Employment Agency</span>
                             <h1>Right <b>Goal</b> Co.,Ltd </h1>
                             <p>Reg.N0.134142383/ Lic.No.153/2022</p>
-                            <a href="" class="default-btn-two">Read More
-                                <i class='bx bx-right-arrow-alt'></i></a>
+                            <a href="{{ route('company.index') }}" class="default-btn-two">
+                                Read More
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-5 pe-0">
@@ -17,9 +19,9 @@
                             <div class="images-area">
                                 <img src="{{ asset('assets/data/slider1.webp') }}" alt="Images">
                                 <div class="banner-slider-two-sub">
-                                    <h3><a href="services-details.html">Thailand</a></h3>
+                                    <h3><a href="{{ route('company.index') }}">Thailand</a></h3>
                                     <p>Our Agreement Country</p>
-                                    <a href="" class="sub-arrow-icon">
+                                    <a href="{{ route('company.index') }}" class="sub-arrow-icon">
                                         <i class='bx bx-right-arrow-alt'></i></a>
                                 </div>
                             </div>
@@ -36,7 +38,7 @@
                             <span>Overseas Employment Agency</span>
                             <h1>Right <b>Goal</b> Co.,Ltd </h1>
                             <p>Reg.N0.134142383/ Lic.No.153/2022</p>
-                            <a href="" class="default-btn-two">Read More
+                            <a href="{{ route('company.index') }}" class="default-btn-two">Read More
                                 <i class='bx bx-right-arrow-alt'></i></a>
                         </div>
                     </div>
@@ -45,7 +47,7 @@
                             <div class="images-area">
                                 <img src="{{ asset('assets/data/slider2.jpg') }}" alt="Images">
                                 <div class="banner-slider-two-sub">
-                                    <h3><a href="services-details.html">Malaysia</a></h3>
+                                    <h3><a href="{{ route('company.index') }}">Malaysia</a></h3>
                                     <p>Our Agreement Country</p>
                                     <a href="" class="sub-arrow-icon">
                                         <i class='bx bx-right-arrow-alt'></i></a>
@@ -64,7 +66,7 @@
                             <span>Overseas Employment Agency</span>
                             <h1>Right <b>Goal</b> Co.,Ltd </h1>
                             <p>Reg.N0.134142383/ Lic.No.153/2022</p>
-                            <a href="" class="default-btn-two">Read More
+                            <a href="{{ route('company.index') }}" class="default-btn-two">Read More
                                 <i class='bx bx-right-arrow-alt'></i></a>
                         </div>
                     </div>
@@ -73,7 +75,7 @@
                             <div class="images-area">
                                 <img src="{{ asset('assets/data/slider4.png') }}" alt="Images">
                                 <div class="banner-slider-two-sub">
-                                    <h3><a href="services-details.html">Japan</a></h3>
+                                    <h3><a href="{{ route('company.index') }}">Japan</a></h3>
                                     <p>Our Agreement Country</p>
                                     <a href="" class="sub-arrow-icon">
                                         <i class='bx bx-right-arrow-alt'></i></a>
@@ -84,13 +86,13 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="social-link-left">
         <ul>
-            <li class="active"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li class="active"><a href="https://www.facebook.com/rihgtgoal/?ref=page_internal"
+                    target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
         </ul>
     </div>
 </div>

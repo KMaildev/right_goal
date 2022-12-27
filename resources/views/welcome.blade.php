@@ -25,6 +25,7 @@
             </div>
         </div>
     </div>
+
     <div class="what-did-area pt-70 pb-70">
         <div class="container">
             <div class="row align-items-center">
@@ -41,18 +42,19 @@
                             <div class="col-lg-4 col-sm-6 col-md-4">
                                 <div class="what-did-left-list list-pl-before list-pl">
                                     <h3>112</h3>
-                                    <span>Project Done</span>
+                                    <span>Sending Worker</span>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 col-md-4 offset-lg-0 offset-md-0 offset-sm-3">
                                 <div class="what-did-left-list">
-                                    <h3>16</h3>
-                                    <span>Thousand Clients</span>
+                                    <h3>4</h3>
+                                    <span>Sending Countries</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div class="what-did-content what-did-content-rs">
                         <div class="section-title-two">
@@ -111,6 +113,7 @@
             </div>
         </div>
     </div>
+
     <div class="timeline-area">
         <div class="container">
             <div class="section-title text-center">
@@ -118,8 +121,6 @@
                     <span class="sp-title">Step By Step</span>
                     <h2>Our Recruitment Process</h2>
                 </div>
-                {{-- <span class="sp-title">Step By Step</span>
-                <h2>Work Process</h2> --}}
             </div>
             <div class="timeline">
                 <ol>
@@ -170,10 +171,7 @@
                             </div>
                             <div class="time-line-bottom">Final Interview</div>
                         </div>
-
                     </li>
-
-
                 </ol>
             </div>
 
@@ -198,7 +196,9 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="case-studies-btn">
-                        <a href="" class="projects-btn">View All</a>
+                        <a href="{{ route('contact.index') }}" class="projects-btn">
+                            Contact Now
+                        </a>
                     </div>
                 </div>
             </div>
@@ -312,7 +312,8 @@
                     </div>
                 </div>
             </div>
-            <a href="services-details.html" class="default-btn-two">Read More <i class='bx bx-right-arrow-alt'></i></a>
+            <a href="{{ route('activitie.index') }}" class="default-btn-two">
+                View More Activities <i class='bx bx-right-arrow-alt'></i></a>
         </div>
     </div>
 @endsection

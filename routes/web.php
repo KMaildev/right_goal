@@ -11,11 +11,13 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OverseasJobsController;
 use App\Http\Controllers\OverviewController;
 use App\Http\Controllers\RecruitmentProcessController;
+use App\Http\Controllers\TeamController;
 use App\Http\Controllers\VisionMissionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('welcome');
 Route::get('about', [AboutController::class, 'index'])->name('about.index');
+Route::get('org', [AboutController::class, 'org'])->name('org');
 Route::get('company', [CompanyController::class, 'index'])->name('company.index');
 Route::get('directors', [DirectorMsgController::class, 'index'])->name('directormessage.index');
 Route::get('ovrview', [OverviewController::class, 'index'])->name('companyoverview.index');
@@ -27,3 +29,4 @@ Route::resource('activitie', ActivitieController::class);
 Route::resource('cv', CvController::class);
 Route::resource('employer', EmployerController::class);
 Route::resource('overseas_jobs', OverseasJobsController::class);
+Route::resource('team', TeamController::class);

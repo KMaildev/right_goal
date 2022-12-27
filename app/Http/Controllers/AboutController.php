@@ -10,4 +10,9 @@ class AboutController extends Controller
     {
         return view('about.index');
     }
+
+    public function org()
+    {
+        return view('about.org');
+    }
 }
